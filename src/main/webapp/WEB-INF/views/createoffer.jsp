@@ -14,6 +14,25 @@
 	
 </head>
 <body>
+<%--<form method="post" action="${pageContext.request.contextPath}/docreate">
+    <table class="formtable">
+        <tr>
+            <td class="label"> Name:</td>
+            <td><input class="control" type="text" name="name"/> </td>
+        <tr>
+            <td class="label"> Email:</td>
+            <td><input class="control" type="text" name="email"/> </td>
+        </tr>
+        <tr>
+            <td class="label"> Offer:</td>
+            <td><textarea class="control" rows="10" cols="10" name="text"> </textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="새 제안"/> </td>
+        </tr>
+    </table>
+</form> --%>
 
 	<sf:form method="post" action="${pageContext.request.contextPath}/docreate" modelAttribute="offer">
 		<table class="formtable">
